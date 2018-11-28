@@ -95,3 +95,36 @@ footer p {
   height: 5px;
   background: #4aaaa5;
 }
+
+/* portfolio */
+
+#portfolioContainer {
+  display: flex;
+  justify-content: center;
+ 
+ 
+}
+
+#portfolio {
+ background-color: white;
+ height: 600px;
+ width: 960px;
+ margin-top: 60px;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  background: red;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.label {
+  width:100%;
+  background-color: #666666;
+  color:white;
+  position: absolute;
+  bottom:0px;
+}
