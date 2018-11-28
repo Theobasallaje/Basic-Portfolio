@@ -1,20 +1,15 @@
-.container {
+html {
+  height: 100%;
+}
+
+/* .container {
   margin-left: 15%;
   width: 960px;
   margin-top: 2%;
   background: #ffffff;
   height: 100%;
   overflow: hidden;
-}
-
-.container h1 {
-  color: #4aaaa5;
-  padding-left: 2%;
-}
-
-.container p {
-  /* height: 500px;;    */
-}
+} */
 
 #profile {
   height: 132px;
@@ -28,15 +23,21 @@ body {
   margin: 0;
   padding: 0;
   background: #F0F0F0;
+  height: 100%;
   }
   
   /* Add a black background color to the top navigation */
 .topnav {
-  background-color:#ffffff;
-  overflow: hidden;
   /* border: 2px solid red; */
   width: 100%;
   height: 90px;
+  padding-left: 12%;
+}
+
+#navContainer {
+  width: 100%;
+  background-color:#ffffff;
+  display: flex;
 }
 
 #nav {
@@ -83,9 +84,10 @@ footer {
 }
 
 footer p {
-  margin-top: 4%;
+  margin-top: 2.8%;
   margin-bottom: 0;
-  font-size: .5em;
+  font-size: .8em;
+  /* color: red; */
 }
 
 #blue {
@@ -96,18 +98,21 @@ footer p {
   background: #4aaaa5;
 }
 
-/* portfolio */
+/* portfolio */ 
 
-#portfolioContainer {
+#portfolioContainer, #aboutContainer, #contactContainer {
   display: flex;
   justify-content: center;
- 
- 
+  padding-bottom: 10px; 
 }
 
-#portfolio {
+#portfolio h1, #about h1, #contact h1 {
+  color: #4aaaa5;
+  padding-left: 2%;
+}
+
+#portfolio, #about {
  background-color: white;
- height: 600px;
  width: 960px;
  margin-top: 60px;
 }
